@@ -1,3 +1,6 @@
+<?php
+include "fakead.php";
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
@@ -35,9 +38,7 @@ body {
           here to enter the R-Zone...</a></font></div>
     <br>
     <br>
-    <div class="horizontalad" align="center"><a
-        href="http://win32subsystem.live/supermium/"><img
-          alt="Supermium, The web browser of the future and past!"
-          src="fakeads/horizontal/supermium.png" <="" body=""> </a></div>
+    <div class="horizontalad" align="center"><img src="<?php echo $randomhorImage; ?>"
+  </div>
   </body>
 </html>
